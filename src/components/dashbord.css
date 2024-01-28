@@ -1,0 +1,19 @@
+body{
+    background-color: white;
+}
+.model-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: 9999;
+}
+.close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    object-fit: cover;
+}
